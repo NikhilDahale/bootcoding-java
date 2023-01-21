@@ -8,11 +8,11 @@ public class EvenOddProgram {
         System.out.println("Hello world");
         System.out.println("Enter the number ");
         int n= sc.nextInt();
-        int a=10;
-        n=a+2+ ++a;
+        //int a=10;
+        //n=a+2+ ++a;
     //    n=a+2+ a++;
         if(n%2==0){
-            System.out.println(n +"is Even number");
+                System.out.println(n +"is Even number");
         } else{
             System.out.println(n+"is Odd number");
         }
